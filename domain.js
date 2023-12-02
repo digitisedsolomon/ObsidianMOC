@@ -38,8 +38,8 @@ async function enterdomain(domain) {
 
 }
 
-export default async function domainprocess() {
-    const location = await setdomain(process.argv[3]);
+export default async function domainprocess(domain) {
+    const location = await setdomain(domain);
     await enterdomain(location);
     process.exit(7);
 }
