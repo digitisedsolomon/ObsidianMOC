@@ -96,7 +96,7 @@ function mainprocess() {
 
         console.log("The path is:", fullPath);
         let filteredpath = escapeBackslashes(fullPath);
-        filteredpath = path.resolve(filteredpath); // add an if statement
+        filteredpath = path.resolve(filteredpath);
         checkpath(filteredpath)
         return filteredpath;
     }

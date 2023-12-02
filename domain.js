@@ -12,7 +12,6 @@ import fs from 'fs';
                 message: 'what is your obsidian vault\'s location? (where the documents are stored)'
             }]);
             return answers.newdomain;
-            // Continue your logic here after getting the response
         } catch (error) {
             if (error.isTtyError) {
                 console.log("error with question");
