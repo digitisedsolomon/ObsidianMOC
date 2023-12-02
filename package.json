@@ -1,0 +1,20 @@
+{
+  "name": "obsidianmoc",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Solomon Khoury",
+  "license": "GPL-2.0",
+  "description": "Copies a formatted list of all obsidian files in a folder to the clipboard for use in a MOC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clipboardy": "^4.0.0",
+    "inquirer": "^9.2.12"
+  },
+  "bin": {
+    "obsmoc": "./main.js"
+  }
+}
