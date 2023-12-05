@@ -1,8 +1,6 @@
 //import os from 'os';
 import 'dotenv/config';
 import chalk from 'chalk';
-import inquirer from 'inquirer';
-
 
 export function checkpath(filteredpath) {
     console.log(filteredpath);
