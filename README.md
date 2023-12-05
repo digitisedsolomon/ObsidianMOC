@@ -7,7 +7,7 @@ One can do all this through the terminal command `obsmoc (your folder)`.
 
 ## Initial Setup
 To install, run `npm i obsidianmoc`.
-Run obsmoc and set your directory.
+Run obsmoc and set your Obsidan vault's directory.
 
 ## Operation
 Run  `obsmoc (your folder)`.
